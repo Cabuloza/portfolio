@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reading</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <!-- Your existing header CSS -->
+  <link rel="stylesheet" href="header.css">
+
+  <!-- Page-specific CSS -->
+  <link rel="stylesheet" href="base.css">
+<link rel="stylesheet" href="reading.css">
+
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-link">Ana Milosevic</a>
+      <span class="header-center">Software Engineer</span>
+      <span class="header-right">Graz, AT</span>
+    </div>
+  </header>
+
+  <main class="reading">
+    <!-- LEFT -->
+    <aside class="reading-left">
+      <p class="reading-intro">
+        Reading sharpens my craft and broadens my understanding of the world. Many of my best ideas come
+        from applying tangential topics, such as linguistics or architecture, to software design.
+      </p>
+
+      <ul class="book-list" id="bookList"></ul>
+    </aside>
+
+    <!-- RIGHT -->
+    <section class="reading-right">
+      <div class="covers" id="coversGrid"></div>
+    </section>
+  </main>
+
+  <script src="reading.js"></script>
+</body>
+</html>
