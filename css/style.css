@@ -19,35 +19,6 @@ a {
   padding: 0 42px 60px;
 }
 
-/* HEADER */
-
-.header {
-  height: 52px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  align-items: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-}
-
-.header a,
-.header p {
-  font-size: 14px;
-  font-weight: 700;
-}
-
-.header-name {
-  grid-column: 1 / 5;
-  text-decoration: none;
-}
-
-.header-role {
-  grid-column: 7 / 9;
-}
-
-.header-location {
-  grid-column: 9 / 13;
-}
-
 /* INTRO */
 
 .intro {
