@@ -1,19 +1,10 @@
-async function includeHTML() {
+document.addEventListener("DOMContentLoaded", () => {
+  const includes = document.querySelectorAll("[data-include]");
 
-    const includes = document.querySelectorAll("[data-include]");
-
-    for (const element of includes) {
-
-        const file = element.getAttribute("data-include");
-
-        const response = await fetch(file);
-
-        if(response.ok){
-            element.innerHTML = await response.text();
-        }
-
-    }
-
-}
-
-includeHTML();
+  includes.forEach(async (el) => {
+    const file = el.getAttribute("data-include");
+    const response = await fetch(file);
+    const html = await response.text();
+    el.innerHTML = html;
+  });
+});
