@@ -1,70 +1,40 @@
 /* HEADER */
 
-.site-header {
-    width: 100%;
-    height: 56px;
+.header {
+    height: 52px;
 
-    background: #111111;
-    border-bottom: 1px solid rgba(255,255,255,0.08);
-
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.header-inner {
-    max-width: 1600px;
-    height: 100%;
-
-    margin: 0 auto;
-    padding: 0 32px;
-
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
     align-items: center;
+
+    padding: 0 24px;
+
+    border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-.header-name,
-.header-role,
-.header-location {
-    color: #ffffff;
+.header a,
+.header p {
+    margin: 0;
     font-size: 14px;
-    font-weight: 600;
-    text-decoration: none;
+    font-weight: 700;
+    color: white;
 }
 
 .header-name {
-    margin-right: auto;
+    grid-column: 1 / 5;
+    text-decoration: none;
 }
 
 .header-role {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    grid-column: 7 / 9;
+    text-align: center;
 }
 
 .header-location {
-    margin-left: auto;
+    grid-column: 9 / 13;
+    text-align: right;
 }
 
 .header-name:hover {
     color: #f5c84c;
-}
-
-@media (max-width: 700px) {
-
-    .site-header {
-        height: 64px;
-    }
-
-    .header-inner {
-        padding: 0 20px;
-    }
-
-    .header-role {
-        display: none;
-    }
-
-    .header-location {
-        display: none;
-    }
 }
