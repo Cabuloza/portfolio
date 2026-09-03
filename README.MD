@@ -1,6 +1,5 @@
-# Ana Milosevic - Portfolio
+# Portfolio
 
-This README explains how to edit, add, and manage your portfolio website.
 
 ## Folder Structure
 
