@@ -1,0 +1,18 @@
+#donut-background {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  z-index: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+#donut-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 620px;
+}

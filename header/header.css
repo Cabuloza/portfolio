@@ -1,40 +1,47 @@
 /* HEADER */
 
 .header {
-    height: 52px;
 
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    align-items: center;
 
-    padding: 0 24px;
+  height: 62px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
 
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 0 24px;
+
+  border-bottom: 1px solid rgba(255,255,255,0.08);
 }
 
-.header a,
-.header p {
-    margin: 0;
-    font-size: 14px;
-    font-weight: 700;
-    color: white;
+.header-name,
+.header-role,
+.header-location {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .header-name {
-    grid-column: 1 / 5;
-    text-decoration: none;
+  text-align: left;
+  padding-left: 80px;
 }
 
 .header-role {
-    grid-column: 7 / 9;
-    text-align: center;
+  text-align: center;
 }
 
 .header-location {
-    grid-column: 9 / 13;
-    text-align: right;
+  text-align: right;
+  padding-right: 80px;
 }
 
 .header-name:hover {
-    color: #f5c84c;
+  color: #f5c84c;
 }

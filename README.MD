@@ -1,4 +1,4 @@
-# Portfolio Website Guide
+# Ana Milosevic - Portfolio
 
 This README explains how to edit, add, and manage your portfolio website.
 
