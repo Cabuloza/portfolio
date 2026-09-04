@@ -13,13 +13,13 @@
   <title>Ana Milosevic</title>
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/assets/personal-logo.png">
-  <link rel="apple-touch-icon" href="/assets/favicon.png">
+  <link rel="icon" type="image/png" href="assets/personal-logo.png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
 
   <!-- style.css = layout/colors for this page. header.css = the header bar only. -->
-    <link rel="stylesheet" href="/header/header.css" />
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/background-donut/donut.css"/>
+  <link rel="stylesheet" href="header/header.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="background-donut/donut.css"/>
 
 </head>
 
@@ -30,7 +30,7 @@
        it here at page load. To change the name/role/location, edit
        header/header.html - NOT this line - so every page updates at once.
   ======================================================================= -->
-  <div data-include="/header/header.html"></div>
+  <div data-include="header/header.html"></div>
   <div id="donut-background"></div>
 
   <main class="site">
@@ -109,7 +109,7 @@
           </div>
         </a>
 
-        <a href="/projects/personal-logo/personal-logo.html" class="project-card">
+        <a href="projects/personal-logo/personal-logo.html" class="project-card">
           <div class="project-media placeholder tall red">
             <img src="assets/personal-logo.png" alt="personal-logo-span">
           </div>
@@ -202,15 +202,15 @@
   </main>
 
   <!-- Injects header/header.html into the empty div near the top of <body> -->
-  <script src="/header/header.js"></script>
+  <script src="header/header.js"></script>
   <script>
-    fetch('/background-donut/donut.html')
+    fetch('background-donut/donut.html')
       .then(response => response.text())
       .then(html => {
         document.getElementById('donut-background').innerHTML = html;
 
         const script = document.createElement('script');
-        script.src = '/background-donut/donut.js';
+        script.src = 'background-donut/donut.js';
         document.body.appendChild(script);
       });
   </script>
