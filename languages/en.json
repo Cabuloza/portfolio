@@ -1,0 +1,10 @@
+{
+  "header": { "role": "Software Engineering & Management Student", "location": "Graz, Austria" },
+  "about": {
+    "label": "ABOUT",
+    "text": "I am a Software Engineering and Management student interested in <mark>Human-Computer Interaction</mark> and modern web technologies. I enjoy building software that combines functionality with intuitive design, placing a strong emphasis on <mark>clean interfaces</mark> and meaningful user experiences. Through personal projects, I am continuously expanding my knowledge of modern web technologies while exploring <mark>data analysis and software architecture</mark>. Beyond software engineering, I am interested in <mark>economics and renewable energy</mark>, particularly how technology can improve efficiency. I am currently studying SEM at the",
+    "university": "Technological University Graz."
+  },
+  "teams": { "label": "TEAMS" },
+  "links": { "label": "LINKS" }
+}

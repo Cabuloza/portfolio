@@ -1,0 +1,10 @@
+{
+  "header": { "role": "Étudiante en ingénierie logicielle et management", "location": "Graz, Autriche" },
+  "about": {
+    "label": "À PROPOS",
+    "text": "Je suis étudiante en ingénierie logicielle et management, passionnée par l'<mark>interaction homme-machine</mark> et les technologies web modernes. J'aime développer des logiciels qui allient fonctionnalité et design intuitif, en mettant l'accent sur des <mark>interfaces claires</mark> et des expériences utilisateur pertinentes. À travers mes projets personnels, j'approfondis continuellement mes connaissances des technologies web modernes tout en explorant l'<mark>analyse de données et l'architecture logicielle</mark>. Au-delà de l'ingénierie logicielle, je m'intéresse à l'<mark>économie et aux énergies renouvelables</mark>, en particulier à la manière dont la technologie peut améliorer l'efficacité. J'étudie actuellement le SEM à l'",
+    "university": "Université Technologique de Graz."
+  },
+  "teams": { "label": "ÉQUIPES" },
+  "links": { "label": "LIENS" }
+}

@@ -9,6 +9,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="...">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Ana Milosevic</title>
 
@@ -37,34 +38,34 @@
     <section class="intro">
 
       <!-- ABOUT -->
-      <div class="about">
-        <p class="label-about">ABOUT</p>
-        <p>
-          I am a Software Engineering and Management student interested in
-         <mark>Human-Computer Interaction</mark> and modern web technologies. I enjoy
-         building software that combines functionality with intuitive design, placing
-         a strong emphasis on <mark>clean interfaces</mark> and meaningful user
-         experiences. Through personal projects, I am continuously expanding my
-         knowledge of modern web technologies while exploring
-         <mark>data analysis and software architecture</mark>. Beyond software
-         engineering, I am interested in <mark>economics and renewable energy</mark>,
-         particularly how technology can improve efficiency. I am currently studying
-         SEM at the
-         <a href="https://www.tugraz.at/home" class="text-link">Technological University Graz.<sup>↗</sup></a>
-        </p>
-      </div>
+<div class="about">
+  <p class="label-about" data-i18n="about.label">ABOUT</p>
+  <p>
+    <span data-i18n-html="about.text">I am a Software Engineering and Management student interested in
+    <mark>Human-Computer Interaction</mark> and modern web technologies. I enjoy
+    building software that combines functionality with intuitive design, placing
+    a strong emphasis on <mark>clean interfaces</mark> and meaningful user
+    experiences. Through personal projects, I am continuously expanding my
+    knowledge of modern web technologies while exploring
+    <mark>data analysis and software architecture</mark>. Beyond software
+    engineering, I am interested in <mark>economics and renewable energy</mark>,
+    particularly how technology can improve efficiency. I am currently studying
+    SEM at the</span>
+    <a href="https://www.tugraz.at/home" class="text-link" data-i18n="about.university">Technological University Graz.<sup>↗</sup></a>
+  </p>
+</div>
 
       <!-- TEAMS: 
       ///  - one <a> per team. 
       ///  - Copy the CISV line to add another. -->
       <div class="side-list teams">
-        <p class="label">TEAMS</p>
+        <p class="label" data-i18n="teams.label">TEAMS</p>
         <a href="https://cisv.org/">CISV<sup>1</sup></a>
       </div>
 
       <!-- LINKS: one <a> per outbound link -->
       <div class="side-list links">
-        <p class="label">LINKS</p>
+        <p class="label" data-i18n="links.label">LINKS</p>
         <a href="https://www.linkedin.com/in/cabuloza">LinkedIn <sup>↗</sup></a>
         <a href="https://www.instagram.com/dr.madnes?igsh=MTM5MW5keGRwYnY2Zw%3D%3D&utm_source=qr">Instagram <sup>↗</sup></a>
         <a href="https://github.com/Cabuloza">GitHub <sup>↗</sup></a>
@@ -214,6 +215,7 @@
         document.body.appendChild(script);
       });
   </script>
+  <script src="languages/i18n.js"></script>
 
 </body>
 </html>

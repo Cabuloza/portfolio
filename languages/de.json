@@ -1,0 +1,10 @@
+{
+  "header": { "role": "Software Engineering & Management Studentin", "location": "Graz, Österreich" },
+  "about": {
+    "label": "ÜBER MICH",
+    "text": "Ich bin Studentin im Bereich Software Engineering und Management und interessiere mich für <mark>Human-Computer Interaction</mark> und moderne Webtechnologien. Ich entwickle gerne Software, die Funktionalität mit intuitivem Design verbindet, mit besonderem Fokus auf <mark>klare Benutzeroberflächen</mark> und durchdachte Nutzererfahrungen. Durch persönliche Projekte erweitere ich kontinuierlich mein Wissen über moderne Webtechnologien und beschäftige mich zugleich mit <mark>Datenanalyse und Softwarearchitektur</mark>. Über das Software Engineering hinaus interessiere ich mich für <mark>Wirtschaft und erneuerbare Energien</mark>, insbesondere dafür, wie Technologie die Effizienz verbessern kann. Ich studiere derzeit SEM an der",
+    "university": "Technischen Universität Graz."
+  },
+  "teams": { "label": "TEAMS" },
+  "links": { "label": "LINKS" }
+}

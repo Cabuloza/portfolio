@@ -1,0 +1,10 @@
+{
+  "header": { "role": "Studentkinja softverskog inženjerstva i menadžmenta", "location": "Grac, Austrija" },
+  "about": {
+    "label": "O MENI",
+    "text": "Ja sam studentkinja softverskog inženjerstva i menadžmenta, zainteresovana za <mark>interakciju čoveka i računara</mark> i savremene veb tehnologije. Volim da razvijam softver koji spaja funkcionalnost sa intuitivnim dizajnom, stavljajući veliki naglasak na <mark>pregledne interfejse</mark> i smisleno korisničko iskustvo. Kroz lične projekte stalno proširujem svoje znanje o savremenim veb tehnologijama, istovremeno istražujući <mark>analizu podataka i softversku arhitekturu</mark>. Osim softverskog inženjerstva, interesuju me <mark>ekonomija i obnovljivi izvori energije</mark>, posebno način na koji tehnologija može da poboljša efikasnost. Trenutno studiram SEM na",
+    "university": "Tehnološkom univerzitetu u Gracu."
+  },
+  "teams": { "label": "TIMOVI" },
+  "links": { "label": "LINKOVI" }
+}
