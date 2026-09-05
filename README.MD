@@ -46,4 +46,8 @@ portfolio/
 * **CSS3** for styling and layouts.
 * **JavaScript (ES6+)** for interactivity and internationalization (i18n).
 
-**Last upadated : 04.09.2026**
+**Last upadated : 05.09.2026**
+
+## License
+Copyright (c) 2026 Ana Milosevic. All rights reserved. 
+This repository is public for display and review purposes only. Unauthorized copying, cloning, or distribution of this code or design is strictly prohibited.
